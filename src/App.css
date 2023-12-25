@@ -1,0 +1,142 @@
+*{
+  background-color: #ddd;
+}
+.App {
+  font-family: sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.App form {
+  height: 120px; 
+  border: 5px solid black;
+  padding: 10px;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.App input[type="text"] {
+  width: 500px;
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+.App input[type="date"] {
+  margin-left: 28%;
+  height: 40px;
+  width: 120px;
+  font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1.5px solid black;
+  background-color: white;
+}
+
+button {
+  height: 45px;
+  width: 130px;
+  margin-left: 28%;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1.5px solid black;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.table-date {
+  margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  margin-bottom: 20px;
+}
+th, td {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd; 
+  height: 60px; 
+  width: 100px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1.5px solid black;
+}
+
+.highlight {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.days-of-week {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-outer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.card {
+  color: white;
+  width: 100%px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: black;
+}
+.card div {
+  margin-bottom: 10px;
+  background-color: black;
+}
+.text-container{
+  width: 60%;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  cursor: pointer;
+}
+.button-container > button {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  opacity: 1 !important;
+}
+
